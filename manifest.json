@@ -1,0 +1,19 @@
+{
+    "name": "EBook Reader",
+    "description": "EBook Reader for epub and mobi",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+          "matches": [
+            "http://localhost:8383/greenstone3/library/collection/ebooktes/document/*"
+          ],
+          "js": ["background.js"]
+        }
+    ]
+}
