@@ -1,6 +1,6 @@
 {
     "name": "EBook Reader",
-    "description": "EBook Reader for epub and mobi",
+    "description": "Greenstone3 EBook Reader for epub and mobi file formats",
     "version": "0.0.1",
     "manifest_version": 3,
     "permissions": [
