@@ -11,7 +11,7 @@
     "content_scripts": [
         {
           "matches": [
-            "*/greenstone3/library/collection/*/document/*"
+            "*://*/greenstone3/library/collection/*/document/*"
           ],
           "js": ["gs3-ebookreader.min.js"]
         }
