@@ -11,9 +11,9 @@
     "content_scripts": [
         {
           "matches": [
-            "http://localhost:8383/greenstone3/library/collection/ebooktes/document/*"
+            "*/greenstone3/library/collection/*/document/*"
           ],
-          "js": ["background.js"]
+          "js": ["gs3-ebookreader.min.js"]
         }
     ]
 }
